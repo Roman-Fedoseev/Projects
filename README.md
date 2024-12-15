@@ -1,1 +1,1 @@
-В этом репозитории собраны результаты участия в олимпидах, на хакатонах, кейс-чемпионатах и т.д.
+This repository contains the results of participation in olympiads, hackathons, case championships, etc.
