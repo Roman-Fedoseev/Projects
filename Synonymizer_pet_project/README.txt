@@ -6,16 +6,20 @@
 1) Заходим на сайт https://ngrok.com (Может понадобиться VPN, я использовал Hola VPN)
 Регистрируемся (я делал это через Google-аккаунт), переходим на вкладку Your Authtoken, 
 нажимаем на иконку глаза - это ваш токен, который нужно будет скопировать и вставить в код дальше.
-![token](https://roman-fedoseev.github.io/Projects/Synonymizer_pet_project/images/token_ngrok.jpg)
+https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/token_ngrok.jpg
 
 2) Загружаем себе в Colab файл Synonymizer
 
 3) Открываем файл, один раз запускаем код из блока "Блоки кода ниже запускаются в первую очередь и один раз" (Это нужно для скачивания модели, она будет помещена на ваш диск), 
 далее эти строки кода можно закомментировать, что б не запускать их лишний раз.
+https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/one_time_block.jpg
 
 4) Скопированный код из пункта 1) помещаем вместо звездочек как показано на скрине:
+https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/link_web.jpg
 
-5) Запускаем весь код КРОМЕ ПОСЛЕДНЕГО БЛОКА КОДА (последний блок кода используется для прерывания соединения с веб-сервисом)
+5) Запускаем весь код КРОМЕ ПОСЛЕДНЕГО БЛОКА КОДА (последний блок кода используется для прерывания соединения с веб-сервисом, смотреть картинку)
+https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/ed_processes.jpg
+
 Что происходит в этот момент: сначала вы дадите доступ колабу к своим файлом, что б он мог прочитать ваш диск. 
 Далее копируется модель с диска в вашу среду Colab, которую вы скачали ранее (помните тот код, что запускается один раз? Это оно и есть).
 Произойдет установка необходимых библиотек.
@@ -24,12 +28,16 @@
 
 6) Далее вы увидите следующее сообщение:
 Смело переходим по ссылке (ПО ПЕРВОЙ ССЫЛКЕ, А НЕ ПО ТОЙ, ЧТО ИМЕЕТ ВИД localhost8501)
+https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/link_web.jpg
 
 7) Выскочит предварительное окно, нужно будет нажать Visit Site
+https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/Visit_site.jpg
 
 8) Веб-сервис начнет свою загрузку, вы увидете следующее окно:
+https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/loading_web.jpg
 
 9) Далее откроется сам веб-сервис:
+https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/load_web.jpg
 
 Инструкция по использованию:
 В окно ввода определения вы помещаете текст, который нужно упростить, а затем нажимаете кнопку "Упростить".
@@ -42,6 +50,8 @@
 Чуть ниже, если пролистать, можно увидеть метрики ответа модели (SBERT и Индекс удобочитаемости Флеша для ru).
 Еще чуть ниже есть история всех ваших запросов, можно открыть шторку и посмотреть подробнее каждый прошлый запрос. Историю можно очистить по одноименной кнопке.
 Также в самом конце есть кнопка, через которую можно скачать PDF-файл с историей ваших запросов.
+https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/metrics_and_history.jpg
+
 
 
 
