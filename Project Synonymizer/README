@@ -5,7 +5,7 @@
 Как развернуть у себя синонимайзер?
 1) Заходим на сайт https://ngrok.com/?itcat=partner_blog&itterm=intro_shop_blog&ittcat=carbon_offset_blog&page=3&u%2C+tm_medium=description (Может понадобиться VPN, я использовал Hola VPN)
 Регистрируемся (я делал это через Google-аккаунт), переходим на вкладку Your Authtoken, нажимаем на иконку глаза - это ваш токен, который нужно будет скопировать и вставить в код дальше.
-![Токен](./images/https://github.com/Roman-Fedoseev/Projects/blob/main/Project%20Synonymizer/images/token_ngrok.jpg)
+![Токен](https://github.com/Roman-Fedoseev/Projects/blob/main/Project%20Synonymizer/images/token_ngrok.jpg)
 
 2) Загружаем себе в Colab файл Synonymizer
 3) Открываем файл, один раз запускаем код из блока "Блоки кода ниже запускаются в первую очередь и один раз" (Это нужно для скачивания модели, она будет помещена на ваш диск), 
