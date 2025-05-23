@@ -6,7 +6,7 @@
 1) Заходим на сайт https://ngrok.com (Может понадобиться VPN, я использовал Hola VPN)
 Регистрируемся (я делал это через Google-аккаунт), переходим на вкладку Your Authtoken, 
 нажимаем на иконку глаза - это ваш токен, который нужно будет скопировать и вставить в код дальше.
-![token](https://github.com/Roman-Fedoseev/Projects/raw/main/Synonymizer_pet_project/images/token_ngrok.jpg)
+![token](https://roman-fedoseev.github.io/Projects/Synonymizer_pet_project/images/token_ngrok.jpg)
 
 2) Загружаем себе в Colab файл Synonymizer
 
