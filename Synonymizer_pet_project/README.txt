@@ -15,10 +15,10 @@ https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_p
 https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/one_time_block.jpg
 
 4) Скопированный код из пункта 1) помещаем вместо звездочек как показано на скрине:
-https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/link_web.jpg
+https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/stars.jpg
 
 5) Запускаем весь код КРОМЕ ПОСЛЕДНЕГО БЛОКА КОДА (последний блок кода используется для прерывания соединения с веб-сервисом, смотреть картинку)
-https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/ed_processes.jpg
+https://raw.githubusercontent.com/Roman-Fedoseev/Projects/main/Synonymizer_pet_project/images/end_processes.jpg
 
 Что происходит в этот момент: сначала вы дадите доступ колабу к своим файлом, что б он мог прочитать ваш диск. 
 Далее копируется модель с диска в вашу среду Colab, которую вы скачали ранее (помните тот код, что запускается один раз? Это оно и есть).
